@@ -20,41 +20,31 @@ cd animal-registry-backend
 2. Set Up Virtual Environment
 Create and activate a virtual environment:
 
-bash
-Copiar
-Editar
+
 python -m venv venv
 source venv/bin/activate  # On Linux/Mac
 venv\Scripts\activate     # On Windows
 3. Install Dependencies
 Install the required dependencies:
 
-bash
-Copiar
-Editar
+
 pip install -r requirements.txt
 4. Apply Database Migrations
 Run the migrations to set up the database:
 
-bash
-Copiar
-Editar
+
 python manage.py migrate
 5. Run the Application
 Start the development server:
 
-bash
-Copiar
-Editar
+
 python manage.py runserver
 The application will be available at http://127.0.0.1:8000/.
 
 6. Run Tests
 To run the unit tests for the project, use the following command:
 
-bash
-Copiar
-Editar
+
 python manage.py test
 API Endpoints
 The API is built using Django REST Framework and includes the following endpoints:
@@ -71,8 +61,6 @@ GET /api/animal-search/: Search for animals by species, breed, and name.
 
 Folder Structure
 pgsql
-Copiar
-Editar
 backend/
 │── registry/
 │   ├── migrations/       # Database migration files
